@@ -35,7 +35,7 @@ A modern, streamlined stack focused on speed, developer experience, and operatio
 
 ### 🗂️ Blob Storage
 
-- **[Supabase Storage](https://supabase.com/storage) – tightly integrated with Supabase auth and Postgres.
+- **[Supabase Storage](https://supabase.com/storage)** – tightly integrated with Supabase auth and Postgres.
 - **[Cloudflare R2](https://developers.cloudflare.com/r2/)** – S3-compatible, zero egress storage for public or CDN-backed assets.
 
 ### 🔐 Authentication & Access
