@@ -68,3 +68,11 @@ Maintaining code consistency and preventing regressions is a core priority. This
 
 - **[Vitest](https://vitest.dev/)** – blazing-fast test runner and assertion library. Supports native ES modules, watch mode, snapshot testing, mocking, and has built-in coverage tools.
 - **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)** – focuses on testing components from the user’s perspective, promoting accessible and behavior-driven test practices.
+
+### 🔁 CI/CD and Deployment
+
+- **[GitHub + GitHub Actions](https://github.com/features/actions)** – Used for version control and continuous integration. Provides a flexible workflow engine with ready-to-use templates for linting, type-checking, testing, and deploys.
+  
+- **[Cloudflare Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/)** – Edge-first deployment platform with generous free tier, and solid Next.js support.
+
+- **[Vercel](https://vercel.com/)** – Zero-config hosting with seamless integration for Next.js and instant preview deployments. First-class developer experience, but pricing can scale quickly.
