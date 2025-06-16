@@ -4,8 +4,6 @@ This Full Stack Playbook is a living document that outlines the key technologies
 
 The playbook is grounded in the principle of balancing **developer productivity** with **system reliability**, placing a strong emphasis on rapid prototyping without compromising code quality, maintainability, or long-term scalability.
 
----
-
 ## 🧱 Core Technologies
 
 A modern, streamlined stack focused on speed, developer experience, and operational efficiency:
@@ -48,8 +46,6 @@ A modern, streamlined stack focused on speed, developer experience, and operatio
 
 - **[Resend](https://resend.com/)** – transactional email service with excellent DX and API ergonomics.
 - **[React Email](https://react.email/)** – component-based email templating with shared styling logic across web and email UIs.
-
----
 
 ## 🧪 Code Quality & Automation
 
