@@ -40,7 +40,7 @@ A modern, streamlined stack focused on speed, developer experience, and operatio
 
 ### 🔐 Authentication & Access
 
-* **[Payload Access Control](https://payloadcms.com/docs/access-control/overview)** - define granular restrictions based on the user, their roles (RBAC), document data, or any other criteria your application requires.
+- **[Payload Access Control](https://payloadcms.com/docs/access-control/overview)** - define granular restrictions based on the user, their roles (RBAC), document data, or any other criteria your application requires.
 - **[Payload Auth](https://payloadcms.com/docs/authentication/overview)** – basic user auth, session-based login, and RBAC via access control functions.
 - **[Supabase Auth](https://supabase.com/auth)** – for advanced features like OAuth, magic links, and multi-factor authentication.
 
