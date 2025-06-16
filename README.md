@@ -60,7 +60,7 @@ Maintaining code consistency and preventing regressions is a core priority. This
 
 ### 🧹 Linting & Formatting
 
-- **[BiomeJS](https://eslint.org/)** + **[Ultracite](https://www.ultracite.dev/)** - All in one code formatter and linter with a solid preset of rules for Typescript projects. Minimal config.
+- **[BiomeJS](https://biomejs.dev/)** + **[Ultracite](https://www.ultracite.dev/)** - All in one code formatter and linter with a solid preset of rules for Typescript projects. Minimal config.
 - **[Husky](https://typicode.github.io/husky/)** + **[lint-staged](https://github.com/lint-staged/lint-staged)** - Git hooks that run pre-commit checks only on staged files. Ensures fast feedback loops without slowing down the full repo.
 - **[commitlint](https://commitlint.js.org/)** – validates commit messages against the [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/) spec (e.g. `feat:`, `fix:`, `chore:`). Ensure a clean git history and better changelog generation.
 
