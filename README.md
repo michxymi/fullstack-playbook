@@ -112,7 +112,7 @@ Before you start developing, make sure your environment is properly set up:
 ## AI Tools
 
 ### 🎨 UI/UX Design
-- **[v0.dev](https://v0.dev/)** – AI-powered UI generator trained on Next.js and shadcn/ui. Great for quickly prototyping components or generating layout ideas that integrate seamlessly with this stack.
+- **[v0.dev](https://v0.dev/)** – AI-powered UI generator trained on NextJS and shadcn/ui. Great for quickly prototyping components or generating layout ideas that integrate seamlessly with this stack.
 - **[tweakcn](https://tweakcn.com/)** – A highly customizable theming tool for shadcn/ui. Offers finer control over visual styling and helps create a more unique, brand-aligned look without abandoning the design system.
 
 ### 🛢️ Supabase
