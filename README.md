@@ -105,8 +105,21 @@ Before you start developing, make sure your environment is properly set up:
 - **Node.js** – Use the latest LTS version, ideally managed via [nvm](https://github.com/nvm-sh/nvm) for consistency across projects.
 - **pnpm** – Preferred package manager, enabled through [corepack](https://github.com/nodejs/corepack#readme).
 - **IDE Setup** – Ensure your editor is configured with relevant plugins (TypeScript, BiomeJS, Tailwind IntelliSense, etc.) to match project conventions.
-- **Local database** – Set up a working local database to avoid burning through production resources:
+- **Local database** – Set up a working local database to avoid burning through production resources. Running a local database, isolates development changes, and protects your production or shared environments from accidental mutation. Guides for D1 and Supabase:
   - [Cloudflare D1](https://developers.cloudflare.com/d1/best-practices/local-development/)
   - [Supabase](https://supabase.com/docs/guides/local-development?queryGroups=package-manager&package-manager=pnpm)
   
-Running a local database, isolates development changes, and protects your production or shared environments from accidental mutation.
+## AI Tools
+
+### 🎨 UI/UX Design
+- **[v0.dev](https://v0.dev/)** – AI-powered UI generator trained on Next.js and shadcn/ui. Great for quickly prototyping components or generating layout ideas that integrate seamlessly with this stack.
+- **[tweakcn](https://tweakcn.com/)** – A highly customizable theming tool for shadcn/ui. Offers finer control over visual styling and helps create a more unique, brand-aligned look without abandoning the design system.
+
+### 🛢️ Supabase
+
+If you're using Supabase, take advantage of their AI-enhanced developer tooling:
+
+- **[MCP Server](https://supabase.com/blog/mcp-server)** – A language server that provides AI-native context awareness, helping you write Supabase queries and schema-related logic directly in your IDE.
+- **[AI Prompts](https://supabase.com/docs/guides/getting-started/ai-prompts)** – Built-in prompt templates designed to improve productivity when using AI-assisted coding tools.
+
+These tools significantly enhance the developer experience by offering intelligent completions, schema awareness, and smart code suggestions.
