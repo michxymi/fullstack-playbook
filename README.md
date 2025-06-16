@@ -23,7 +23,7 @@ A modern, streamlined stack focused on speed, developer experience, and operatio
 ### 🧠 Backend
 
 - **[Payload Local API](https://payloadcms.com/docs/local-api/overview)** – for high-performance server-side business logic and secure data operations.
-- **[Next.js Server Actions](https://nextjs.org/docs/app/getting-started/updating-data)** – for handling server mutations with minimal overhead and built-in progressive enhancement.
+- **[NextJS Server Actions](https://nextjs.org/docs/app/getting-started/updating-data)** – for handling server mutations with minimal overhead and built-in progressive enhancement.
 
 ### 🗃️ Database & ORM
 
@@ -73,6 +73,40 @@ Maintaining code consistency and preventing regressions is a core priority. This
 
 - **[GitHub + GitHub Actions](https://github.com/features/actions)** – Used for version control and continuous integration. Provides a flexible workflow engine with ready-to-use templates for linting, type-checking, testing, and deploys.
   
-- **[Cloudflare Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/)** – Edge-first deployment platform with generous free tier, and solid Next.js support.
+- **[Cloudflare Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/)** – Edge-first deployment platform with generous free tier, and solid NextJS support.
 
-- **[Vercel](https://vercel.com/)** – Zero-config hosting with seamless integration for Next.js and instant preview deployments. First-class developer experience, but pricing can scale quickly.
+- **[Vercel](https://vercel.com/)** – Zero-config hosting with seamless integration for NextJS and instant preview deployments. First-class developer experience, but pricing can scale quickly.
+
+## ✅ Good Practices
+
+### 🗂️ Project Structure
+
+NextJS relies heavily on file-based conventions for routing, layouts, and server actions. As a project scales, this can quickly lead to tightly coupled or disorganized code. To avoid that, I use a **modular, domain-based architecture** that encourages clear separation of concerns.
+
+Each module represents a feature or domain and includes:
+- UI components
+- Hooks
+- Helper functions
+- Types and schemas
+- API/server logic (if relevant)
+- **Colocated tests** (e.g. `Component.test.tsx`, `hook.test.ts`) alongside the source code
+
+This structure keeps everything contextually grouped, making the codebase:
+- Easier to navigate and reason about
+- More maintainable as it grows
+- Friendly to testing, refactoring, and onboarding
+
+Tests living close to their definitions help reduce friction during development, encourage better test coverage, and improve DX with quicker discoverability.
+
+### 🗂️ Local Development
+
+Before you start developing, make sure your environment is properly set up:
+
+- **Node.js** – Use the latest LTS version, ideally managed via [nvm](https://github.com/nvm-sh/nvm) for consistency across projects.
+- **pnpm** – Preferred package manager, enabled through [corepack](https://github.com/nodejs/corepack#readme).
+- **IDE Setup** – Ensure your editor is configured with relevant plugins (TypeScript, BiomeJS, Tailwind IntelliSense, etc.) to match project conventions.
+- **Local database** – Set up a working local database to avoid burning through production resources:
+  - [Cloudflare D1](https://developers.cloudflare.com/d1/best-practices/local-development/)
+  - [Supabase](https://supabase.com/docs/guides/local-development?queryGroups=package-manager&package-manager=pnpm)
+  
+Running a local database, isolates development changes, and protects your production or shared environments from accidental mutation.
